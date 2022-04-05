@@ -1,0 +1,55 @@
+.mainContainer {
+  margin: 40px;
+}
+.upperDiv {
+  margin-left: 5%;
+  margin-top: 4%;
+  color: rgb(82, 82, 202);
+  border-bottom: 1px solid rgb(82, 82, 202);
+  width: 6%;
+}
+.searchBox {
+  width: 50%;
+  margin-left: 2.5%;
+}
+.Delivered {
+  color: green;
+  /* background-color: rgb(149, 185, 149); */
+  /* border: 1px solid rgb(149, 185, 149); */
+}
+.Completed {
+  color: cyan;
+  /* background-color: aqua; */
+}
+.Prepared {
+  color: orange;
+}
+.Completed-status {
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(130, 185, 166);
+}
+.Delivered-status {
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(145, 228, 145);
+}
+.Prepared-status {
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(245, 229, 201);
+}
+.filterData {
+  /* border: 1px solid blue; */
+  position: relative;
+  left: 36%;
+  top: 25px;
+}
+.selection {
+  border: none;
+  position: absolute;
+  /* right: px; */
+}
