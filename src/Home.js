@@ -89,7 +89,7 @@ const Home = () => {
     } else if (e.target.value === "Earliest") {
       setData(actualArrayForSortedDate.reverse());
     } else {
-      setData(data);
+      setData(date);
     }
   };
 

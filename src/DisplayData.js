@@ -17,7 +17,7 @@ export const DisplayData = (props) => {
               {" "}
               Date Order
               <select onChange={(e) => props.changeOrder(e)}>
-                <option value="">None</option>
+                <option value="None">None</option>
                 <option value="Earliest">Earliest</option>
                 <option value="Oldest">Oldest</option>
               </select>
